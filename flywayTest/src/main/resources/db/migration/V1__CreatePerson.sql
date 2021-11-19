@@ -1,0 +1,8 @@
+USE `testdb`;
+CREATE TABLE Persons (
+    PERSON_ID BIGINT  AUTO_INCREMENT PRIMARY KEY,
+    MOBILE_NO VARCHAR(10) NOT NULL,
+    NAME varchar(255),
+    AGE  INT
+    
+);
